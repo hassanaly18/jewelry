@@ -4,6 +4,10 @@
   padding: 0%;
 }
 
+/* body{
+  overflow: hidden;
+} */
+
 .cover {
   background-image: url("https://cdn.prod.website-files.com/664dba28a7ff416978f4c0ec/66867b0433b5b358625a6153_hero.jpg");
   width: 100%;
@@ -37,7 +41,7 @@
   color: #ffffff;
   font-weight: 300;
   line-height: 130%;
-  max-width: 500px;
+  max-width: 100%;
   margin-bottom: 30px;
   font-size: 40px;
 }
@@ -493,4 +497,35 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+}
+
+/* 
+black {
+  color: #000000;
+}
+white{
+  color: #ffffff;
+} */
+
+/* .dark-mode{
+  background-color: #000000;
+  height: 100vh;
+}
+
+.light-mode{
+  background-color: #ffffff;
+  height: 100vh;
+} */
+
+.mode{
+  background-color: black;
+  color: white;
+}
+.btnDark{
+  background-color: white;
+  color: black;
+}
+.btnLight{
+  background-color: black;
+  color: white;
 }
